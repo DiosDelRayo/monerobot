@@ -26,7 +26,7 @@ services:
         - 8085:25
   fider:
     restart: always
-    image: getfider/fider:main
+    image: vthor/fider-monerobot:latest
     ports:
       - 8080:3000
     environment:
